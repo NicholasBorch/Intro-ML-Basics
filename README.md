@@ -68,7 +68,7 @@ The repository consists of four Jupyter notebooks, each covering a specific stag
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ml-intro-sklearn.git
+   git clone https://github.com/NicholasBorch/Intro-ML-Basics.git
    cd ml-intro-sklearn
 
 2. **Run the Notebooks**:
