@@ -1,6 +1,6 @@
 # Intro-ML-Basics: Introduction to Machine Learning with Scikit-Learn
 
-This repository provides an introductory guide to machine learning using the **Scikit-Learn** library. It is designed for beginners and covers the a basic pipeline of a simple machine learning workflow, from **data preprocessing** to **model evaluation and visualization**. The project includes workflows for both **classification** and **regression tasks**, using simple, well-known datasets and predefined models provided by Scikit-Learn. As this is an introduction to machine learning, more advanced topics including statistical evaluation of models, hyperparameter-tuning, feature selection, ensemple methods and analysis of more advanced datasets will be covered in a later project.
+This repository provides an introductory guide to machine learning using the **Scikit-Learn** library. It is designed for beginners and covers a basic pipeline of a simple machine learning workflow, from **data preprocessing** to **model evaluation and visualization**. The project includes workflows for both **classification** and **regression tasks**, using simple, well-known datasets and predefined models provided by Scikit-Learn. As this is an introduction to machine learning, more advanced topics including statistical evaluation of models, hyperparameter-tuning, feature selection, ensemple methods and analysis of more advanced datasets will be covered in a later project.
 
 ---
 
