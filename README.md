@@ -114,7 +114,7 @@ The repository is divided into two main folders:
      - Retraining the best model on the full training set before evaluating on the hold-out test set.
 
 2. **Cross-Validation**:
-   - Uses 5-fold cross-validation for fair evaluation of models.
+   - Uses cross-validation for fair evaluation of models.
 
 3. **Dataset Size**:
    - The datasets used are small and primarily for educational purposes. They may not represent real-world complexities.
