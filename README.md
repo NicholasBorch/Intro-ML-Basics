@@ -1,6 +1,6 @@
 # Intro-ML-Basics: Introduction to Machine Learning with Scikit-Learn
 
-This repository provides an introductory guide to machine learning using the **Scikit-Learn** library. It is designed for beginners and covers a basic pipeline of a simple machine learning workflow, from **data preprocessing** to **model evaluation and visualization**. The project includes workflows for both **classification** and **regression tasks**, using simple, well-known datasets and predefined models provided by Scikit-Learn. As this is an introduction to machine learning, more advanced topics including statistical evaluation of models, hyperparameter-tuning, feature selection, ensemple methods and analysis of more advanced datasets will be covered in a later project.
+This repository is an introductory workflow for machine learning using the **Scikit-Learn** library. It covers a basic pipeline of a simple machine learning workflow, from **data preprocessing** to **model evaluation and visualization**. The project includes workflows for both **classification** and **regression tasks**, using simple, well-known datasets and predefined models provided by Scikit-Learn. As this is an introduction to machine learning, more advanced topics including statistical evaluation of models, hyperparameter-tuning, feature selection, ensemple methods and analysis of more advanced datasets will be explored in a later project.
 
 ---
 
@@ -88,14 +88,13 @@ The repository is divided into two main folders:
    cd Intro-ML-Basics
 
 2. **Choose a Folder**:
-   - Navigate to the `Classification` or `Regression` folder based on your interest.
+   - Navigate to the `Classification` or `Regression`.
 
 3. **Run the Notebooks**:
-   - Open the notebooks in your preferred Jupyter environment.
-   - Follow the workflow step-by-step, starting from `Data_Preprocessing`.
+   - Open the notebooks and follow the workflow step-by-step, starting from `Data_Preprocessing`.
 
 4. **Select a Dataset**:
-   - Modify the `selected_dataset` variable in `Data_Preprocessing` to choose an appropriate dataset.
+   - Modify the `selected_dataset` variable in `Data_Preprocessing` to choose a dataset.
 
 5. **Customize Models**:
    - Modify the `selected_models` variable in `Model_Selection` to train specific models.
@@ -109,15 +108,15 @@ The repository is divided into two main folders:
 
 1. **Avoiding Data Leakage**:
    - This repository avoids data leakage by:
-     - Splitting data into training and test sets before evaluation.
-     - Applying **standardization** and **PCA** only to the training set during cross-validation and then applying the same transformation to the test set.
+     - Splitting data into training and test sets before evaluation and data transformations.
+     - Applying **standardization** and **PCA** to the training set during cross-validation and then applying the same transformations to the test set.
      - Retraining the best model on the full training set before evaluating on the hold-out test set.
 
 2. **Cross-Validation**:
    - Uses cross-validation for fair evaluation of models.
 
 3. **Dataset Size**:
-   - The datasets used are small and primarily for educational purposes. They may not represent real-world complexities.
+   - The datasets used are small and primarily for educational purposes. They most likely do not represent real-world complexities.
 
 4. **Scalability**:
    - While this project demonstrates basic concepts, the code can be extended to handle larger datasets and more complex workflows with minimal adjustments.
